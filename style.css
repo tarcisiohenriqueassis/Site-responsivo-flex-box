@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+
+.container-cards{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+    gap: 30px;
+}
+.container-cards .card .container-imagem{
+    width: 332px;
+}
+.container-cards .card .container-imagem img{
+    width: 100%;
+}
+.container-cards .texto-descricao-card{
+    width: 312px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: gray;
+} 
